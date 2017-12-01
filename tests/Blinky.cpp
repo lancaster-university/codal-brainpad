@@ -5,14 +5,14 @@ BrainPad brain;
 void
 onClick(Event)
 {
-    brain.serial.printf("CLICK");
+    brain.serial.printf("CLICK\r\n");
 }
 
 int
 main()
 {
     brain.init();
-    brain.serial.printf(" *** BRAINPAD BLINKY TEST ***");
+    brain.serial.printf(" *** BRAINPAD BLINKY TEST ***\r\n");
 
     brain.messageBus.listen(DEVICE_ID_BUTTON_A, DEVICE_BUTTON_EVT_CLICK, onClick);
 
