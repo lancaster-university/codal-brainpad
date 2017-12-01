@@ -5,7 +5,7 @@ BrainPad brain;
 void
 onClick(Event)
 {
-    DMESG("CLICK");
+    brain.serial.printf("CLICK");
 }
 
 int
