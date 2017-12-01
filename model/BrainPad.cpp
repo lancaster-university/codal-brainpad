@@ -88,7 +88,7 @@ int BrainPad::init()
     //seedRandom();
 
     codal_dmesg_set_flush_fn(brainpad_dmesg_flush);
-    //status |= DEVICE_COMPONENT_STATUS_IDLE_TICK;
+    status |= DEVICE_COMPONENT_STATUS_IDLE_TICK;
 
     return DEVICE_OK;
 }
