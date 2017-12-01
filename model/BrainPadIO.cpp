@@ -28,7 +28,7 @@ DEALINGS IN THE SOFTWARE.
   */
 
 #include "CodalConfig.h"
-#include "BrainpadIO.h"
+#include "BrainPadIO.h"
 
 using namespace codal;
 
@@ -41,11 +41,11 @@ using namespace codal;
   * by MicroBitPin instances on the default EventModel.
   */
 BrainPadIO::BrainPadIO() :
-    A0 (ID_PIN_P0, PA_0, PIN_CAPABILITY_AD),            
-    A1 (ID_PIN_P1, PA_1, PIN_CAPABILITY_AD),            
-    A2 (ID_PIN_P2, PA_4, PIN_CAPABILITY_AD),            
-    A3 (ID_PIN_P3, PB_0, PIN_CAPABILITY_AD),            
-    A4 (ID_PIN_P4, PC_1, PIN_CAPABILITY_AD),            
+    A0 (ID_PIN_P0, PA_0, PIN_CAPABILITY_AD),
+    A1 (ID_PIN_P1, PA_1, PIN_CAPABILITY_AD),
+    A2 (ID_PIN_P2, PA_4, PIN_CAPABILITY_AD),
+    A3 (ID_PIN_P3, PB_0, PIN_CAPABILITY_AD),
+    A4 (ID_PIN_P4, PC_1, PIN_CAPABILITY_AD),
     A5 (ID_PIN_P5, PC_0, PIN_CAPABILITY_AD),
     led (ID_PIN_P6, LED1, PIN_CAPABILITY_AD),
     buttonA (DEVICE_ID_BUTTON_A, USER_BUTTON, PIN_CAPABILITY_DIGITAL)
