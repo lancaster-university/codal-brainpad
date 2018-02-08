@@ -34,13 +34,13 @@
     "generate_hex": true, 
     "libraries": [
         {
-            "branch": "d7270e90d0b910f803c8d87024d5696bca9ffd41", 
+            "branch": "998df31f855e77f28395e469581cde9463f55007", 
             "name": "codal-core", 
             "type": "git", 
             "url": "https://github.com/lancaster-university/codal-core"
         }, 
         {
-            "branch": "574699d26ebe1ce8da88cdd3b0c4e806739c1571", 
+            "branch": "3bacadea3849b80ea8cea079fe4b19f486932cba", 
             "name": "codal-mbedos", 
             "type": "git", 
             "url": "https://github.com/lancaster-university/codal-mbedos"
@@ -49,6 +49,6 @@
     "linker_flags": "-Wl,--no-wchar-size-warning -Wl,-wrap,main -Wl,--gc-sections -Wl,--wrap,exit -Wl,--wrap,atexit -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=softfp ", 
     "post_process": "", 
     "processor": "STM32F4", 
-    "snapshot_version": "v0.0.6", 
+    "snapshot_version": "v0.0.7", 
     "toolchain": "ARM_GCC"
 }
